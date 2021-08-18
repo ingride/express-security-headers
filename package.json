@@ -1,0 +1,16 @@
+{
+  "name": "security-headers",
+  "version": "1.0.0",
+  "description": "Security Headers for Express",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^4.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

@@ -5,6 +5,13 @@
 HTTP security headers are a fundamental part of website security, and protect against common client-side vulnerabilities, like Cross-Site Scripting (XSS), code injection, clickjacking, etc. 
 They can also instruct the browser to prefer HTTPS over HTTP so that the connection is secure. 
 
+### Prerequisites
+
+- Node.js
+- npm
+
+For installation options follow the steps in this [guide](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm). 
+
 ### Running the application
 
 1. Run the Express app: 
@@ -44,4 +51,9 @@ Keep-Alive: timeout=5
 <h2> Oh hai there! </h2>
 ```
 
-3. You can also open the URL (`http://localhost:3000`) in the browser and use the Developer Tools.
+3. You can also open the URL (`http://localhost:3000`) in the browser and use the Developer Tools
+- right click and select `Inspect`
+- navigate to the Network tab
+- refresh the page
+- click on the request
+- navigate to the Request Headers section.
